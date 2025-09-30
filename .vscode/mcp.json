@@ -1,0 +1,12 @@
+{
+    "inputs": [],
+    "servers": {
+        "mcp-choreo": {
+            "command": "choreo",
+            "args": [
+                "start-mcp-server"
+            ],
+            "env": {}
+        }
+    }
+}
