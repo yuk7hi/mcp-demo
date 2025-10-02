@@ -1,0 +1,11 @@
+schemaVersion: 1.2
+endpoints:
+  - name: library-api
+    displayName: Library Management API
+    service:
+      basePath: /
+      port: 9090
+    type: REST
+    networkVisibilities: 
+      - Public
+      - Organization
